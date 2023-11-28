@@ -17,8 +17,7 @@ export default function Login() {
           <Col xs={6} className="login-panel-2 flex-column">
             <FormLogin />
             <div>
-              <div class="recoveryPass"><a href="#">Se te olvidó tu contraseña</a></div>
-              <div className="createAccount"><a href="#"><strong>Crear cuenta</strong></a></div>
+              <div className="recoveryPass"><a href="#">Recuperar cuenta</a></div>
             </div>
 
           </Col>

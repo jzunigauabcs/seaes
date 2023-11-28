@@ -31,6 +31,12 @@ input::placeholder{
     background-color: $second-color;
     border-color: $second-color;
   }
+  &:active {
+    background-color: $second-color!important;
+
+    border-color: $second-color!important;
+    
+  }
 }
 
 .recoveryPass a, .createAccount a{

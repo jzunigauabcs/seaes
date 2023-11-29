@@ -66,7 +66,7 @@ export default function ModalIndicador({show, programa, valor, handleClose}) {
       </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            Close
+            Cancelar
           </Button>
           <Button variant="primary"  onClick={handleClose}>
             Guardar

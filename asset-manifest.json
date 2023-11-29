@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10d65546.css",
+    "main.js": "/static/js/main.05741d28.js",
+    "static/js/787.bdb9320d.chunk.js": "/static/js/787.bdb9320d.chunk.js",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.36a001389434149ddb34.jpg",
+    "static/media/bg1.jpg": "/static/media/bg1.dd299aa6f657aa5ba611.jpg",
+    "static/media/logoSep.PNG": "/static/media/logoSep.4e16cdaab535b60aa4df.PNG",
+    "static/media/logoUAN.png": "/static/media/logoUAN.4c4a7b61b2a7acd9d640.png",
+    "static/media/logoUABCS.PNG": "/static/media/logoUABCS.38e9bf58f37b713410d1.PNG",
+    "static/media/bg2.jpeg": "/static/media/bg2.f2c3921a842cef5501ab.jpeg",
+    "static/media/grafica.jpg": "/static/media/grafica.523bdb7d46678dcf6033.jpg",
+    "static/media/uploadFiles.jpg": "/static/media/uploadFiles.32181ca9af23c1cafe33.jpg",
+    "static/media/logoUAS.PNG": "/static/media/logoUAS.b5ae28ec3fc5472e4c6d.PNG",
+    "index.html": "/index.html",
+    "main.10d65546.css.map": "/static/css/main.10d65546.css.map",
+    "main.05741d28.js.map": "/static/js/main.05741d28.js.map",
+    "787.bdb9320d.chunk.js.map": "/static/js/787.bdb9320d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10d65546.css",
+    "static/js/main.05741d28.js"
+  ]
+}

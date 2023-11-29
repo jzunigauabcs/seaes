@@ -29,17 +29,22 @@ export default function ModalIndicador({show, programa, valor, handleClose}) {
             <strong className="d-block">Rasgos del perfil de egreso para indicador de formación personal:</strong>
             <Form.Check 
               type='checkbox'
-              label="Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi."
+              label="Construcción de una conciencia histórica que contribuya al mejoramiento de los ámbitos social, educativo, cultural, ambiental, económico y político."
               className="d-block me-3"
             />
             <Form.Check 
               type='checkbox'
-              label="Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi."
+              label="Impulso de la responsabilidad ciudadana y participación democrática, en el contexto de las problemáticas más sensibles de las comunidades cercanas."
               className="d-block me-3"
             />
             <Form.Check 
               type='checkbox'
-              label="Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi."
+              label="Comprensión de la interacción entre la naturaleza y la sociedad, para garantizar la preservación de entorno natural y promover estilos de vida sostenible."
+              className="d-block me-3"
+            />
+            <Form.Check 
+              type='checkbox'
+              label="Contribución a la resolución de las crisis ambientales (cambio climático, biodiversidad, agua, entre otras)."
               className="d-block me-3"
             />
             <Button variant="secondary">+Agregar nuevo rasgo</Button>

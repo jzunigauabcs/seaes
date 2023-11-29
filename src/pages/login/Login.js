@@ -7,7 +7,7 @@ export default function Login() {
       <Container fluid className="login">
         <Row className='justify-content-center'>
           <Col xs={6} className="login-panel-1">
-            <h1 className="login-title-1">SEAS 2003</h1>
+            <h1 className="login-title-1">SEAES 2023</h1>
             <h3 className="login-title-2">Sistema de Evaluación y Acreditación de la Educación Superior</h3>
             <div className="login-panel-1-bg">
 

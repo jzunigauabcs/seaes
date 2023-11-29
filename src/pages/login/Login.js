@@ -10,7 +10,6 @@ export default function Login() {
             <h1 className="login-title-1">SEAES 2023</h1>
             <h3 className="login-title-2">Sistema de Evaluación y Acreditación de la Educación Superior</h3>
             <div className="login-panel-1-bg">
-
             </div>
           </Col>
           <Col xs={6} className="login-panel-2 flex-column">

@@ -1,0 +1,23 @@
+@import '../../_variables.scss';
+
+.main-menu {
+  li{
+    a {
+      text-decoration: none;
+      width: 200px;
+      height: 200px;
+      background-color: $second-color;
+      color: $third-color;
+      position: relative;
+      .icon {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        font-size: 130px;
+      }
+      &:hover {
+        color: $third-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+@import '../../_variables.scss';
+.ambito-title {
+  text-transform: uppercase;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    bottom: 0;
+    top: 0;
+    border-left: solid 11px currentColor;
+  }
+}
+.title-formacion-profesional-color {
+  color: $formacion-profesional-color;
+}
+.title-profesionalizacion-docente-color {
+  color: $profesionalizacion-docente-color;
+}
+.title-programas-licencituras-tsu-color {
+  color: $programas-licencituras-tsu-color;
+}
+.title-programas-investigacion-posgrado-color{
+  color: $programas-investigacion-posgrado-color;
+}
+.title-institucion-plantel-color {
+  color: $institucion-plantel-color;
+}
+
+.accordion {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -30px;
+    bottom: 0;
+    border-left: 30px solid;
+    border-bottom-left-radius: 0.375rem;
+    border-top-left-radius: 0.375rem;
+  }
+  .accordion-item {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    .accordion-button{
+      &:not(.collapsed) {
+        box-shadow: none;
+      }
+    }
+  }
+}
+.accordion-button {
+  flex-direction: column;
+  align-items: start;
+  strong {
+    font-size: 20px;
+  }
+  &:not(.collapsed) {
+    background-color: transparent;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+h2.title-formacion-profesional-color ~ .accordion {
+  &::before {
+    border-color: $formacion-profesional-color;
+  }
+  .detalle-indicador {
+    .nav-tabs {
+      .nav-link {
+        color: $formacion-profesional-color;
+        border: 1px solid $formacion-profesional-color;
+        border-radius: 15px;
+      }
+      .nav-link.active {
+        background-color: $formacion-profesional-color;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+h2.title-profesionalizacion-docente-color ~ .accordion {
+  &::before {
+    border-color: $profesionalizacion-docente-color;
+  }
+  .detalle-indicador {
+    .nav-tabs {
+      .nav-link {
+        color: $profesionalizacion-docente-color;
+        border: 1px solid $profesionalizacion-docente-color;
+        border-radius: 15px;
+      }
+      .nav-link.active {
+        background-color: $profesionalizacion-docente-color;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+h2.title-programas-investigacion-posgrado-color ~ .accordion {
+  &::before {
+    border-color: $programas-investigacion-posgrado-color;
+  }
+  .detalle-indicador {
+    .nav-tabs {
+      .nav-link {
+        color: $programas-investigacion-posgrado-color;
+        border: 1px solid $programas-investigacion-posgrado-color;
+        border-radius: 15px;
+      }
+      .nav-link.active {
+        background-color: $programas-investigacion-posgrado-color;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+h2.title-institucion-plantel-color ~ .accordion {
+  &::before {
+    border-color: $institucion-plantel-color;
+  }
+  .detalle-indicador {
+    .nav-tabs {
+      .nav-link {
+        color: $institucion-plantel-color;
+        border: 1px solid $institucion-plantel-color;
+        border-radius: 15px;
+      }
+      .nav-link.active {
+        background-color: $institucion-plantel-color;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+h2.title-programas-licencituras-tsu-color + h2.title-programas-investigacion-posgrado-color ~.accordion {
+  &::before {
+    border-color: transparent;
+    border-image: linear-gradient(180deg, $programas-licencituras-tsu-color, $programas-investigacion-posgrado-color)1 100;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0)
+  }
+  .detalle-indicador {
+    .nav-tabs {
+      .nav-link {
+        color: $programas-licencituras-tsu-color;
+        border: 1px solid $programas-investigacion-posgrado-color;
+        border-radius: 15px;
+      }
+      .nav-link.active {
+        background-image: linear-gradient(180deg, $programas-licencituras-tsu-color, $programas-investigacion-posgrado-color);
+        color: #ffffff;
+      }
+    }
+  }
+}
+.detalle-indicador {
+  .nav-tabs {
+    border: 0;
+    .nav-item {
+      margin-right: 10px;
+      .nav-link.active {
+        border: 0;
+      }
+      .nav-link {
+        border: 0;
+        &:hover, &:focus {
+          border: 0;
+        }
+      }
+    }
+  }
+  strong {
+    font-size: 20px;
+  }
+}

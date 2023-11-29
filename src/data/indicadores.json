@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "ambito": [
+      {
+        "id": 1,
+        "type": 1,
+        "name": "Formación Profesional"
+      }
+    ],
+    "indicadores": [
+      {
+        "numero": 1,
+        "nombre": "Rasgos Formativos",
+        "descripcion": "Incorporación de los rasgos formativos relacionados con cada uno de los criterios del SEAES en el perfil de egreso del programa educativo."
+      },
+      {
+        "numero": 2,
+        "nombre": "Evaluación sistemática",
+        "descripcion": "Mecanismos para evaluar sistemáticamente la formación de los rasgos del perfil de egreso relacionados con los criterios del SEAES en el programa educativo."
+      },
+      {
+        "numero": 3,
+        "nombre": "Tipo de Evaluación",
+        "descripcion": "En su caso, tipo de evaluación que se utiliza para evaluar sistemáticamente la formación de los rasgos del perfil de egreso."
+      },
+      {
+        "numero": 4,
+        "nombre": "Porcentaje de Estudiantes Egresados",
+        "descripcion": "Porcentaje de estudiantes egresados por programa educativo que  demostraron haber adquirido la formación prevista en el perfil de egreso, es decir los principales rasgos o características que identifican a cada uno de los criterios."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "ambito": [
+      {
+        "id": 2,
+        "type": 2,
+        "name": "Profesionalización de la docencia"
+      }
+    ],
+    "indicadores": [
+      {
+        "numero": 5,
+        "nombre": "Planta Académica",
+        "descripcion": "Composición porcentual de la planta académica del programa educativo en función de los criterios de equidad social y de género, inclusión e interculturalidad."
+      },
+      {
+        "numero": 6,
+        "nombre": "Acciones de profesionalización",
+        "descripcion": "Número de profesores y profesoras de la institución que participaron en acciones de profesionalización de la docencia encaminadas a reforzar cada uno de los criterios del SEAES."
+      },
+      {
+        "numero": 7,
+        "nombre": "Proyectos de innovación pedagógica",
+        "descripcion": "Porcentaje de profesores y profesoras del programa educativo que participan en proyectos de innovación pedagógica, educativa y disciplinar relacionados con los criterios del SEAES."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "ambito": [
+      {
+        "id": 3,
+        "type": 3,
+        "name": "Programas de Licenciaturas y TSU"
+      },
+      {
+        "id": 4,
+        "type": 4,
+        "name": "Programas de investigación y posgrado"
+      }
+    ],
+    "indicadores": [
+      {
+        "numero": 8,
+        "nombre": "Población Escolar",
+        "descripcion": "Composición porcentual de la población escolar en función de los criterios de equidad social y de género, inclusión e interculturalidad."
+      },
+      {
+        "numero": 9,
+        "nombre": "Trayectorias Escolares",
+        "descripcion": "Trayectorias escolares de los estudiantes en función de los criterios de equidad social y de género, inclusión e interculturalidad (tasas de ingreso, permanencia, abandono, rezago, reprobación, egreso y titulación)."
+      },
+      {
+        "numero": 10,
+        "nombre": "Diseño Curricular",
+        "descripcion": "Existencia de un diseño curricular que incorpore en forma fundamentada, gradual, transversal e integrada el desarrollo de aprendizajes relacionados con cada uno de los criterios del SEAES."
+      },
+      {
+        "numero": 11,
+        "nombre": "Unidades de Organización Curricular",
+        "descripcion": "Número de unidades de organización curricular (totales o en etapas terminales), que se enfocan a consolidar los aprendizajes de los rasgos del perfil de egreso relacionados con cada uno de los criterios del SEAES."
+      },
+      {
+        "numero": 12,
+        "nombre": "Proyectos de Innovación",
+        "descripcion": "Porcentaje de estudiantes que participan en proyectos de innovación pedagógica, educativa y disciplinar relacionados con los criterios del SEAES."
+      },
+      {
+        "numero": 13,
+        "nombre": "Proyectos de Investigación",
+        "descripcion": "Porcentaje de proyectos de investigación que consideraron cada uno de los criterios del SEAES."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "ambito": [
+      {
+        "id": 5,
+        "type": 4,
+        "name": "Programas de investigación y posgrado"
+      }
+    ],
+    "indicadores": [
+      {
+        "numero": 14,
+        "nombre": "Productos de Investigación",
+        "descripcion": "Porcentaje de productos de investigación relacionados con los criterios del SEAES."
+      },
+      {
+        "numero": 15,
+        "nombre": "Planta Académica",
+        "descripcion": "Composición porcentual de integrantes de la planta académica que participan en proyectos de investigación relacionados con los criterios del SEAES."
+      },
+      {
+        "numero": 16,
+        "nombre": "Estudiantes en Proyectos de Investigación",
+        "descripcion": "Porcentaje de estudiantes que participan en proyectos de investigación relacionados con los criterios del SEAES."
+      },
+      {
+        "numero": 17,
+        "nombre": "Personal Directivo y Administrativo",
+        "descripcion": "Composición porcentual del personal directivo y administrativo en general, en función de los criterios de equidad social y de género, inclusión e interculturalidad."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "ambito": [
+      {
+        "id": 6,
+        "type": 5,
+        "name": "Institución/Plantel"
+      }
+    ],
+    "indicadores": [
+      {
+        "numero": 18,
+        "nombre": "Iniciativas, Servicios y Acciones",
+        "descripcion": "Número de iniciativas, servicios y acciones de acompañamiento a los y las estudiantes, de vinculación, de gestión cultural y de gestión en general que incorporan los criterios transversales del SEAES."
+      },
+      {
+        "numero": 19,
+        "nombre": "Acciones planes y programas",
+        "descripcion": "Número de acciones previstas en los planes y programas de desarrollo institucional que impulsan la incorporación de cada uno de los criterios transversales."
+      },
+      {
+        "numero": 20,
+        "nombre": "Acciones Institucionales",
+        "descripcion": "Número de acciones institucionales realizadas para atender y sensibilizar a la comunidad en los temas previstos por los criterios del SEAES."
+      }
+    ]
+  }
+]

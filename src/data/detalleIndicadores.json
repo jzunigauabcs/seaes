@@ -1,0 +1,58 @@
+[
+	{
+		"nivel": "licenciatura",
+		"detalles": [
+			{
+				"nombre": "Licenciatura en Administración de Tecnologías de la Información",
+				"status": [1, 1, 2, 1, 2, 2, 2]
+			},
+			{
+				"nombre": "Ingeniería en Desarrollo de Software",
+				"status": [1, 1, 2, 1, 2, 2, 1]
+			},
+			{
+				"nombre": "Ingeniería en Tecnología Computacional",
+				"status": [1, 1, 2, 1, 2, 2, 1]
+			},
+			{
+				"nombre": "Licenciatura en Tecnologías de la Información",
+				"status": [3, 3, 3, 3, 3, 3, 3]
+			}
+		]
+	},
+	{
+		"nivel": "especialidad",
+		"detalles": [
+			{
+				"nombre": "Técnico Superior Universitario en Administración en Tecnologías de la Información",
+				"status": [1, 2, 2, 1, 1, 1, 2]
+			}
+		]
+	},
+	{
+		"nivel": "maestría",
+		"detalles": [
+			{
+				"nombre": "Maestría en tecnologías de la información",
+				"status": [1, 2, 1, 1, 1, 2, 2]
+			},
+			{
+				"nombre": "Maestría en Sistemas Computacionales",
+				"status": [1, 1, 1, 1, 2, 2, 1]
+			}
+		]
+	},
+	{
+		"nivel": "doctorado",
+		"detalles": [
+			{
+				"nombre": "Doctorado en Inteligencia Artificial",
+				"status": [1, 2, 1, 1, 1, 2, 2]
+			},
+			{
+				"nombre": "Doctorado en Computación",
+				"status": [1, 1, 1, 1, 2, 1, 1]
+			}
+		]
+	}
+]
